@@ -8,7 +8,7 @@ async function searchProducts(searchTerm: string) {
         where: {
             name: {
                 contains: searchTerm,
-                mode: 'insensitive'
+                //mode: 'insensitive'
             }
         },
         include: {
