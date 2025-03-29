@@ -5,4 +5,4 @@
 
 */
 -- AlterTable
-ALTER TABLE `OrderProducts` ADD COLUMN `quantity` INT NOT NULL;
+ALTER TABLE "OrderProducts" ADD COLUMN     "quantity" INTEGER NOT NULL;
