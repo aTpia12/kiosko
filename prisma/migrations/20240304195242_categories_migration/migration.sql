@@ -1,9 +1,10 @@
 -- CreateTable
-CREATE TABLE `Category` (
-    `id` INT NOT NULL AUTO_INCREMENT,
-    `name` TEXT NOT NULL,
-    `slug` TEXT NOT NULL,
+CREATE TABLE "Category" (
+    "id" SERIAL NOT NULL,
+    "name" TEXT NOT NULL,
+    "slug" TEXT NOT NULL,
 
-    PRIMARY KEY (`id`)
+    CONSTRAINT "Category_pkey" PRIMARY KEY ("id")
 );
+
 
